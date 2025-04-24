@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    color: brown;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    flex-grow: 1;
+    width: 30%;
+    background-color: cornsilk;
+    margin: 10px;
+    border: solid brown 2px;
+    border-radius: 10px;
+    padding: 5px;
+}
