@@ -1,0 +1,32 @@
+.kiwi {
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.kiwi ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kiwi li {
+    list-style: none;
+    margin: 5px;
+}
+
+.kiwi a {
+    text-decoration: none;
+    color: rgb(25, 113, 191);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.kiwi a:hover {
+    background-color: rgb(130, 91, 213);
+    color: aliceblue;
+}
