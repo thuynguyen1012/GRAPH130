@@ -41,6 +41,14 @@
     </style>
 </head>
 <body>
+    <div id="nav-placeholder"></div>
+    <script>
+        fetch('nav.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+        });
+        </script>
 <h1>Optimizing Images</h1>
     <article class="loki">
         <img src="../images/80.jpg" alt="80 percent jpg sample" height="500px">
@@ -70,7 +78,6 @@
     <article class="leo">
         <img src="../images/02.jpg" alt="Light on Water" width="400px">
         <img src="../images/04.jpg" alt="Japanese Building with a Bridge" width="400px">
-        <img src="../images/11.jpg" alt="Tori Door" width="400px">
         <img src="../images/03.jpg" alt="Sushi" width="400px">
         <img src="../images/01.jpg" alt="Japan Street at Night" width="400px">
         <img src="../images/06.jpg" alt="Japanese Women" width="400px">

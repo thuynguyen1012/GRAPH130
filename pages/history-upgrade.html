@@ -10,6 +10,14 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+    <div id="nav-placeholder"></div>
+    <script>
+        fetch('nav.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+        });
+        </script>
     <main>
         <section data-aos="fade-up">
             <p><b>Dwight Eisenhower</b> - American politician and Army general who served as the 34th President of the United States from 1953 until 1961.</p>
