@@ -4,30 +4,29 @@ html {
     padding: 2em;
 }
 
-/* .hero {
+.hero {
     padding: 2%;
-} */
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .stormy section {
     box-sizing: border-box;
 }
 
-/* .stormy .em {
+.stormy .em {
     padding: 4em;
-} */
+}
 
-/* .stormy {
+.stormy {
     padding: 2em;
-} */
+}
 
 .nini img {
-    width: 90%;
+    width: 100%;
     height:fit-content;
 }
-
-footer {
-    padding: 2em;
-    padding-left: 0%;
-    clear: both;
-}
-
