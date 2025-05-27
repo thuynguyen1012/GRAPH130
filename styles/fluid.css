@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.hero {
+    padding: 2%;
+}
+
+.hero section img {
+    width: 100%;
+    height: auto;
+}
+
+.stormy {
+    background-color: rgb(9, 100, 100);
+    color: white;
+}
+
+.stormy section {
+    box-sizing: border-box;
+}
+
+.stormy .em {
+    padding: 2em;
+}
+
+.stormy .rem {
+    padding: 3rem;
+}
+
+.stormy .percentage p{
+    width: 75%;
+}
+
+.stormy .vw {
+    padding: 4%;
+}
+
+a {
+    color: rgb(41, 41, 124);
+    text-decoration: none;
+}

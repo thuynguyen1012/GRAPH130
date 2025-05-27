@@ -21,3 +21,8 @@ section {
     border-radius: 10px;
     padding: 5px;
 }
+
+.tim {
+    flex-grow: 2;
+    background-color: rgb(241, 197, 197);
+}

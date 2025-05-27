@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 2em;
+}
+
+.hero {
+    padding: 2%;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.stormy section {
+    box-sizing: border-box;
+}
+
+.stormy .em {
+    padding: 4em;
+}
+
+.stormy {
+    padding: 2em;
+}
+
+.nini img {
+    width: 100%;
+    height:fit-content;
+}
